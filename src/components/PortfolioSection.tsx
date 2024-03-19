@@ -20,7 +20,7 @@ function PortfolioSection() {
          </div>
         <div className={styles.animations}>
           <div className={styles.static_text}>
-          I'm a  </div>
+          I&apos;m a  </div>
         
         <ul className={styles.dynamic_txts}>
           <li><span>Web Developer</span></li>

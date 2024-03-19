@@ -72,8 +72,8 @@ const Projects = () => {
           <SwiperSlide>
             <div className={styles.projectcard}>
              <div><h1>AI-Text-Summarizer-App</h1></div> 
-              <div><p>Text Summarizer Web App: Using OpenAI's powerful GPT models, this project simplifies text summarization. </p></div>
-              <div><p>Skills-HTML, CSS, JavaScript and OpenAI's API</p></div>
+              <div><p>Text Summarizer Web App: Using OpenAI&apos;s powerful GPT models, this project simplifies text summarization. </p></div>
+              <div><p>Skills-HTML, CSS, JavaScript and OpenAI&apos;s API</p></div>
 
               <div>
                 <span><a href="https://github.com/sindhureddy-6/AI-Text-Summarizer-App">GitHub</a></span>
