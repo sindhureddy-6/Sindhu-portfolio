@@ -108,6 +108,7 @@
     }
     .nav_toggler{
         display: flex;
+        color:white;
     }
     .right1{
         flex-direction: column;

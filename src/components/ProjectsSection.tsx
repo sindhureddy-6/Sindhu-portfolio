@@ -50,7 +50,7 @@ const Projects = () => {
               <div><p>Skills-HTML, CSS, JavaScript, Node.js, MongoDB, Express</p></div>
 
               <div>
-                <span><a href="#">GitHub</a></span>
+                <span><a href="https://github.com/sindhureddy-6/Wanderlust">GitHub</a></span>
                 <span><a href="#">Live Site</a></span>
               </div>
               
