@@ -1,1 +1,1 @@
-My Portfolio built with Next.js &love;
+My Portfolio built with Next.js
