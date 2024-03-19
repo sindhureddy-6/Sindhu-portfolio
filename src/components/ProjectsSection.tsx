@@ -51,7 +51,7 @@ const Projects = () => {
 
               <div>
                 <span><a href="https://github.com/sindhureddy-6/Wanderlust">GitHub</a></span>
-                <span><a href="#">Live Site</a></span>
+                <span><a href="https://wanderlust-x9iu.onrender.com/">Live Site</a></span>
               </div>
               
             </div>
