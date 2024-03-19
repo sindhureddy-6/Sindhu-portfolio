@@ -1,0 +1,78 @@
+.Img {
+    object-fit: cover;
+    z-index: -5;
+}
+.projectdiv {
+    /* background: linear-gradient(to bottom right, #0099ff 0%, #00ff99 100%); */
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10vh 0px; */
+    z-index:1;
+}
+
+.projectdiv h1 {
+    font-family: "Magra", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: white;
+}
+
+.projectcard {
+    /* background-color: white; */
+
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2px solid rgb(0, 0, 0);
+    box-shadow: 2px 0px 15px 0px rgb(71, 71, 71);
+    z-index:1;
+}
+
+.projectcard h1 {
+    font-size: 25px;
+    font-weight:450;
+    margin-top: 10px;
+    color: rgb(192, 8, 112);
+    border-bottom: 2px solid white;
+}
+
+.projectcard p {
+    font-size: 16px;
+    font-weight: 450;
+    color: #080808;
+    margin-left: 15px;
+   
+}
+
+.projectcard div {
+    font-size: 16px;
+    color: #080808;
+    margin-bottom: 5px;
+    padding:5px;
+}
+
+.projectcard a {
+    font-weight:550;
+    text-decoration: none;
+    color:rgb(192, 8, 112);;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 8, 112);;
+    transition: all 0.3s ease;
+}
+
+.projectcard a:hover {
+    background-color: rgb(192, 8, 112);;
+    color: #ffffff;
+}

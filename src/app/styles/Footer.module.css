@@ -1,0 +1,16 @@
+.Img {
+    object-fit: cover;
+    z-index: -5;
+}
+.footer {
+    background-color: #333;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    position:relative;
+    z-index:100;
+}
+
+.footer p {
+    margin-bottom: 0;
+}

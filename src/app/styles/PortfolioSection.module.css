@@ -1,0 +1,108 @@
+.Img {
+    /* width: 100%; */
+    /* height: 100%; */
+    object-fit: cover;
+    z-index: -5;
+}
+.pf_outer{
+    z-index:100;
+     display: flex;
+     flex-direction: column;
+     align-items:center ;
+     justify-content:center;
+    position:relative;
+    top:10%;
+    width:100%;
+    height: 100vh;
+   /* overflow: hidden;    */
+}  
+.pf_outer .home_content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text .h{
+    padding-left:5px;
+    margin:0;
+    font-size: 30px;
+    font-weight:400;
+}
+.home_content .static_text{
+    color:black;
+    font-size:35px;
+    font-weight:300;
+    padding: 12px;
+}
+.home_content .dynamic_txts{
+     margin-top:18px;
+     margin-top:0;
+     padding-left:5px;
+     height: 70px;
+     line-height:70px;
+     overflow:hidden;
+}
+    
+.dynamic_txts li{
+    color: rgb(192, 8, 112);
+    list-style: none;
+    font-size:35px;
+    font-weight:500;
+    position:relative;
+    top:0;
+    animation: slide 5s steps(4) infinite;
+}
+@keyframes slide {
+    100% {
+       top:-290px;
+    }
+}
+.dynamic_txts li span{
+    position:relative;
+}
+.dynamic_txts li span::after{
+    content:"";
+    position:absolute;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color:inherit;
+    border-left:2px solid rgb(192, 8, 112)D;
+    animation:typing 1.5s steps(15) infinite;
+}
+@keyframes typing {
+    100%{
+        left:100%;
+        margin:0 -35px 0 35px;
+    }
+}
+.animations{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.text .name{
+    font-size: 75px;
+    font-weight: 600;
+}
+@media(max-width:500px){
+    .pf_outer{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        padding-left:10px;
+        /* margin-left:10px; */
+    }
+    .text .name {
+        font-size: 50px;
+        font-weight: 450;
+    }
+    .home_content .static_text{
+        font-size:30px;
+    }
+    .dynamic_txts li{
+        font-size: 32px;
+    }
+
+}
